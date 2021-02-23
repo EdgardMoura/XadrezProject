@@ -4,7 +4,7 @@
     {
         //associaçao de classes
         public Posicao posicao { get; set; }
-        public Cor cor { get; protected set; }//alterada por ela e subclasses apenas
+        public Cor cor { get; protected set; }//encapsulamento, alterada por ela e subclasses apenas
         public int qteMovimentos { get; protected set; }
         public Tabuleiro tab { get; protected set; }
 
