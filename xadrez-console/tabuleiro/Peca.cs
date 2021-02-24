@@ -16,5 +16,11 @@
             this.cor = cor;
             this.qteMovimentos = 0;            
         }
+
+        //metodo para contar os movimentos realizados
+        public void incrementarQteMovimentos()
+        {
+            qteMovimentos++;
+        }
     }
 }
