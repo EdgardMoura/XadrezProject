@@ -47,7 +47,7 @@
         }
 
         //metodo verifica se a peça pode mover para uma dada posiçao
-        public bool podeMoverPara(Posicao pos)
+        public bool movimentoPossivel(Posicao pos)
         {
             return movimentosPossiveis()[pos.linha, pos.coluna];
         }
