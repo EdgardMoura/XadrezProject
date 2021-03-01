@@ -212,7 +212,7 @@ namespace xadrez
         {
             if (!tab.peca(origem).movimentoPossivel(destino))
             {
-                throw new TabuleiroException("*** NOVA POSIÇÃO JÁ POSSUI PEÇA! ***");
+                throw new TabuleiroException("*** POSIÇÃO INVÁLIDA! ***");
             }
         }
 

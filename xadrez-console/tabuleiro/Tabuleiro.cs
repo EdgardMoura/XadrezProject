@@ -31,7 +31,7 @@
         {
             if (exitePeca(pos))
             {
-                throw new TabuleiroException("Já existe uma peça nessa posição!");
+                throw new TabuleiroException("*** NOVA POSIÇÃO JÁ POSSUI PEÇA! ***");
             }
             pecas[pos.linha, pos.coluna] = p;
             p.posicao = pos;
