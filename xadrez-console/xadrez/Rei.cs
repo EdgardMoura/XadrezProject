@@ -16,7 +16,7 @@ namespace xadrez
         //metodo to string
         public override string ToString()
         {
-            return "R";
+            return "r";
         }
 
         //metodo verifica se é nula a posiçao ou cor diferente da peça em movimento

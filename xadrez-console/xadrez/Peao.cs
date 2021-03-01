@@ -12,7 +12,7 @@ namespace xadrez
 
         public override string ToString()
         {
-            return "P";
+            return "p";
         }
 
         private bool existeInimigo(Posicao pos)

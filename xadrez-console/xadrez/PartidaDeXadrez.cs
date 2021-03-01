@@ -195,7 +195,7 @@ namespace xadrez
         {
             if (tab.peca(pos) == null)
             {
-                throw new TabuleiroException("Não existe peça na posição de origem escolhida!");
+                throw new TabuleiroException("*** NÃO HÁ PEÇA NA POSIÇÃO INFORMADA! ***");
             }
             if (jogadorAtual != tab.peca(pos).cor)
             {
@@ -212,7 +212,7 @@ namespace xadrez
         {
             if (!tab.peca(origem).movimentoPossivel(destino))
             {
-                throw new TabuleiroException("Posição de destino invalida");
+                throw new TabuleiroException("*** NOVA POSIÇÃO JÁ POSSUI PEÇA! ***");
             }
         }
 
