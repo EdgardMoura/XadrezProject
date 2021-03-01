@@ -23,6 +23,12 @@
             qteMovimentos++;
         }
 
+        //metodo para remover os movimentos realizados
+        public void decrementarQteMovimentos()
+        {
+            qteMovimentos++;
+        }
+
         //metodo verifica se a peça nao esta bloqueada
         public bool existeMovimentosPossiveis()
         {
